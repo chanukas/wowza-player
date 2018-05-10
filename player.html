@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="//player.wowza.com/player/latest/wowzaplayer.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <style>
+
+        body{
+            background-color: bisque;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="playerElement" style="width:100%; height:0; padding:0 0 46.25% 0"></div>
+<script type="text/javascript">
+    var myPlayer = WowzaPlayer.create('playerElement',{
+        "license":"PLAY1-ffcTE-nkGKD-bVmKQ-Aj4hj-twbcb",
+        "sourceURL":"http://107.182.233.104:1935/vod/sample.mp4/playlist.m3u8"}
+    );
+</script>
+
+</body>
+</html>
